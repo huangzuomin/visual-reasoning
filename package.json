@@ -3,11 +3,11 @@
   "version": "0.1.0",
   "private": true,
   "description": "Visual Reasoning (S-L-G-T) – AI时代的媒体叙事实战指南文档站",
-  "scripts": {
-    "docs:dev": "vitepress dev docs",
-    "docs:build": "npx vitepress build docs",
-    "docs:preview": "vitepress preview docs"
-  },
+"scripts": {
+  "docs:dev": "vitepress dev docs",
+  "docs:build": "node node_modules/vitepress/bin/vitepress.js build docs",
+  "docs:preview": "vitepress preview docs"
+},
   "devDependencies": {
     "vitepress": "^1.3.4",
     "vitepress-plugin-auto-sidebar": "^1.4.0",

@@ -40,6 +40,9 @@ export default defineConfig({
   description: 'S-L-G-T 视觉推理框架与新闻可视化方法论',
   lang: 'zh-CN',
 
+// 先临时关闭死链校验，等文章都写完再打开
+  ignoreDeadLinks: true,
+
   themeConfig: {
     nav: [
       { text: '指南', link: '/guide/intro' },
