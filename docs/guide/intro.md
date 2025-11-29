@@ -38,11 +38,12 @@ _Visual Reasoning · Sprint 0_
 它们几乎每一张都“看着很对”，但实际上“严重不对”。
 
 
-![](../public/images/b8052143d4fac9ba9e55afcbf286fe24.png)
+![](../public/images/intro.jpg)
 
 ![](../public/images/Pasted%20image%2020251129215045.png)
 
-![](../public/images/Pasted%20image%2020251129215045%201.png)
+![](../public/images/intro%20(1).jpg)
+
 
 - **那张《温州本土动物精选》**，地图渲染堪比《国家地理》，却把雁荡山整体位移到南侧，还把河网、山脉走向调整成视觉上更“均衡”的布局；多处物种也被放到并不存在的栖息地（如洞宫物种被放到沿海）。它“太像专业地图”，以至于普通用户不会质疑。
     
