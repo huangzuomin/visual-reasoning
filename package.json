@@ -5,7 +5,7 @@
   "description": "Visual Reasoning (S-L-G-T) – AI时代的媒体叙事实战指南文档站",
   "scripts": {
     "docs:dev": "vitepress dev docs",
-    "docs:build": "vitepress build docs",
+    "docs:build": "npx vitepress build docs",
     "docs:preview": "vitepress preview docs"
   },
   "devDependencies": {
