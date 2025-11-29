@@ -1,150 +1,104 @@
 ---
 layout: home
-
 hero:
   name: 视觉推理 Visual Reasoning
   text: AI 时代的媒体叙事实战指南
-  tagline: 把 AI 画图，从「抽卡生成」升级为「可推理、可审计的视觉逻辑系统」。
+  tagline: 拒绝“抽卡式”生成。构建可推理、可审计、可协作的视觉逻辑系统。
   actions:
     - theme: brand
-      text: 从这里开始
+      text: 🚀 从这里开始
       link: /guide/intro
     - theme: alt
       text: 回到温故智新主站
       link: https://huangzuomin.com
-
 features:
-  - title: S-L-G-T 视觉推理框架
-    details: Subject / Logic / Grounding / Texture 四大维度，构建可复用的视觉逻辑语言。
-  - title: 面向新闻与内容机构
-    details: 数据新闻、调查报道、突发灾难三大高风险场景的完整解决方案。
-  - title: 开源知识工程
-    details: 以开源方式持续迭代，版本化维护 Prompt、模板与案例。
+  - icon: 🧩
+    title: S-L-G-T 核心框架
+    details: Subject (主体) / Logic (逻辑) / Grounding (锚定) / Texture (质感)。一套通用的视觉语言标准。
+  - icon: 🛡️
+    title: 新闻级抗幻觉协议
+    details: 专为数据新闻、非虚构写作与调查报道设计。让每一处像素都有据可查。
+  - icon: 🤝
+    title: 团队协作流
+    details: 告别个人“玄学”调参，建立可复用的 Prompt 资产库与标准化工作流。
 ---
 
----
 
-# 视觉推理（Visual Reasoning）项目库  
-> 基于 S-L-G-T 框架的新闻级图像生成工作体系
+## 🔍 为什么需要“视觉推理”？
 
-本项目库提供一套适用于新闻、科普、政务、非虚构写作的  
-**可复用、可审计、可协作**的视觉生成方法：  
-**S-L-G-T：Subject、Logic、Grounding、Texture。**
+传统的 AI 绘图往往陷入“抽卡”陷阱。我们通过**S-L-G-T 框架**，将随机生成转变为工程化输出：
 
-与其教 AI “怎么画”，  
-我们更关注人类如何掌握“生成图像的逻辑与证据链”，  
-让模型输出可控、可信、可解释的视觉成果。
-
-
-
-## 🔍 项目定位：为什么需要“视觉推理”？
-
-传统的 Prompt 多依赖形容词或“玄学技巧”，导致图像：
-
-- 好看但 **不真实**  
-- 连贯但 **不一致**（人物变脸，场景穿帮）  
-- 结构完整但 **逻辑无依据**（地图画错、数据乱填）  
-- 风格统一但 **偏见固化**（刻板脸谱化）
-
-**视觉推理（Visual Reasoning）** 提供另一条路径：
-
-> 用“逻辑 + 本体 + 数据 + 风格规范”接管 AI 的生成过程，  
-> 从随机生成 → 变成可控输出。
-
-这套体系既适用于你个人的 AI 实战写作，也适用于媒体机构、设计团队或 AIGC 生产部门的团队协作。
-
-
-
-## 🚀 快速上手：推荐阅读顺序
-
-如果你第一次使用，请按下面的顺序浏览：
-
-### 1. 了解框架  
-- **[S-L-G-T 总览](./frameworks/slgt-overview.md)**  
-  全局介绍四个模块在人机协同中的作用。
+| 🔴 传统 Prompt 模式 | 🟢 视觉推理 (Visual Reasoning) |
+| :--- | :--- |
+| **不可控**：好看但经常“穿帮” | **可审计**：基于证据锚定 (Grounding) |
+| **黑盒化**：依赖形容词堆砌 | **结构化**：逻辑 (Logic) + 本体 (Subject) |
+| **随机性**：人物场景难以统一 | **一致性**：可复用的数字资产与蓝图 |
+| **偏见**：模型固有的刻板印象 | **中立**：主动的去偏见与风格控制 |
 
 ---
 
-### 2. 学核心模块（更新中）
+## 🏗️ 核心方法论：S-L-G-T 体系
 
-- **[S / Subject：主体定义](slgt-subject.md)**  
-  数字演员卡（Digital Casting）、物体蓝图、刻板印象粉碎机、实例级 S-Block。
+这是本项目的核心引擎。请按以下顺序构建你的知识库：
 
-- **[L / Logic：画面逻辑](./frameworks/slgt-logic.md)**  
-  三大拓扑、网格系统、信息流、视线调度与“空间导演”。
+### 1. [S / Subject 主体定义](./slgt-subject.md)
+> **"演员与道具的数字化档案"**
+* **Digital Casting**：固定人物特征，拒绝“变脸”。
+* **Object Blueprint**：物体蓝图与结构规范。
+* **S-Block**：可复用的最小视觉单元。
 
-- **[G / Grounding：证据锚定](./frameworks/slgt-grounding.md)**  
-  数据依据、史料引用、抗幻觉协议、事实链模板。
+### 2. [L / Logic 画面逻辑](./frameworks/slgt-logic.md)
+> **"导演视角的空间调度"**
+* **空间拓扑**：网格系统与信息流向。
+* **视线引导**：如何用构图讲故事。
+* **视觉修辞**：隐喻、对比与并在的逻辑实现。
 
-- **[T / Texture：质感风格](./frameworks/slgt-texture.md)**  
-  风格配方、材质语言、负向风格库、历史媒介模拟。
+### 3. [G / Grounding 证据锚定](./frameworks/slgt-grounding.md)
+> **"新闻事实的校验锚点"**
+* **抗幻觉协议 (AGP)**：如何通过提示词锁死关键事实。
+* **史料与数据**：将抽象数据转化为具象视觉的映射规则。
 
----
-
-### 3. 看案例（更新中）
-
-真实项目往往比理论更容易上手。
-
-你可以从案例库开始：
-
-- **[案例库首页](./cases/README.md)**  
-  包含你在讨论稿中积累的选题：  
-  - 温州本地生物图谱  
-  - 古港考古复原  
-  - 城市基建可视化  
-  - 职业画像（医生、工厂技师、外卖骑手）  
-  - 多模态信息图（灾害预警、生态解释、政策结构图等）
-
-案例文件会持续更新，每次项目讨论会、每次“踩坑复盘”都会沉淀为新的案例。
+### 4. [T / Texture 质感风格](./frameworks/slgt-texture.md)
+> **"符合叙事语境的画风"**
+* **媒介模拟**：从胶片颗粒到数据可视化的风格配方。
+* **去AI味**：消除过度平滑、高饱和的“塑料感”。
 
 ---
 
-## 🧰 文件结构说明
+## 🚀 实战案例库
 
-```
+理论服务于实战。我们从真实的项目复盘中提炼方法：
 
-docs/  
-│── index.md ← 首页（你正在看的）  
-│── guide/ ← 新手指南 & 入门教程  
-│── frameworks/ ← S/L/G/T 四大核心模块  
-│── cases/ ← 案例库（随项目迭代增加）  
-│── .vitepress/ ← 文档主题 / 导航 / 侧栏配置  
-
-```
+* **🗺️ [城市与地理](./cases/README.md)**
+    * 温州生物图谱、古港考古复原、城市基建可视化。
+* **🧑‍🔧 [职业与众生相](./cases/README.md)**
+    * 外卖骑手、工厂技师、医护人员的非刻板画像。
+* **📊 [信息图与图解](./cases/README.md)**
+    * 突发灾害预警、政策结构图、复杂流程拆解。
 
 ---
 
-## 💡 适用人群
+## 💡 谁适合使用？
 
-- 新闻编辑、记者、内容主编  
-- 视觉设计师、信息图设计师  
-- AIGC 产品经理、编辑部的提示词架构师  
-- 政务宣传、科普团队、教育内容生产者  
-- 对“可控生成 / 结构化 AI 工作流”有需求的任何团队
+* **新闻编辑与记者**：需要为报道配图，且对准确性有极高要求。
+* **AIGC 产品经理**：需要建立团队内部的 Prompt 标准化流程。
+* **科普与教育工作者**：需要长期输出风格统一、逻辑严密的解释性图像。
 
 ---
 
-## 🔨 持续更新与路线图
+## 🏁 下一步
 
-未来更新计划：
+不要停留在理论。选择一条路径开始：
 
-- 案例库增加“台风模拟图”“城市交通链路图”  
-- S-Block 与 Object Blueprint 模板库扩展  
-- 增补“系统提示词库（System Prompts Library）”  
-- 增加“审核规则（Checklist）”与“反幻觉协议（AGP）”  
-- 增加适配不同模型（Gemini 3、即梦 4、Sora）的提示词实践对照
+<div style="display: flex; gap: 10px; flex-wrap: wrap;">
 
-欢迎在仓库提交 issue / PR，或加入讨论。
+<a href="./slgt-subject.md" style="text-decoration: none; background-color: var(--vp-c-brand); color: white; padding: 10px 20px; border-radius: 4px; font-weight: bold;">
+👉 先学写第一个 S-Block
+</a>
 
----
+<a href="./cases/README.md" style="text-decoration: none; background-color: var(--vp-c-bg-soft); color: var(--vp-c-text-1); border: 1px solid var(--vp-c-divider); padding: 10px 20px; border-radius: 4px; font-weight: bold;">
+📂 浏览案例库
+</a>
 
-## 🏁 你下一步可以做什么？
-
-如果你希望马上动手，不妨直接跳到：
-
-👉 **[S / 主体：开始写第一个 S-Block](slgt-subject.md)**  
-或  
-👉 **[案例库：从真实项目开始](./cases/README.md)**
-
-从今天开始，构建你的**可控视觉生成体系**。
+</div>
 
