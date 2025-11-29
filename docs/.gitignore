@@ -1,0 +1,13 @@
+# Obsidian 本地写作环境配置
+.obsidian/
+docs/.obsidian/
+
+# VitePress 构建目录
+docs/.vitepress/dist/
+docs/.vitepress/cache/
+
+# Node 相关
+node_modules/
+
+# macOS
+.DS_Store
